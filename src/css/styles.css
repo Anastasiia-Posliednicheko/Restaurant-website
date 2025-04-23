@@ -10,10 +10,19 @@ h4,
 h5,
 h6 {
     font-family: "Clash Display", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    color: #515643;
 }
 
 button {
     cursor: pointer;
+}
+section {
+    padding-top: 80px;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .hidden {
@@ -35,7 +44,7 @@ a {
 
 /* Header */
 .header-section {
-    max-width: 1920x;
+    max-width: 1920px;
     padding: 40px 80px;
     margin: 0 auto;
 }
@@ -65,7 +74,6 @@ a {
 /* Hero */
 .hero {
     height: 931px;
-    margin: 0 auto;
     background-image: url(../img/Full-background.1x.jpg);
     background-size: cover;
     background-position: center;
@@ -84,21 +92,14 @@ a {
 }
 
 /* About */
+
 .about {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 80px 0;
     gap: 467px;
-    max-width: 1920px;
-    margin: 0 auto;
-
-}
-.about-title {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 1;
-    color: #515643;
+    margin-bottom: 121px;
+    
 
 }
 .about-text {
@@ -108,4 +109,68 @@ a {
     font-size: 18px;
     line-height: 1.5;
     color: #515643;
+}
+.swiper-wrapper {
+    flex-wrap: nowrap
+}
+/* Menu */
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-text {
+    max-width: 570px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #36392d;
+}
+.menu-list {
+    display: flex;
+    gap: 38px;
+}
+.menu-list-item {
+    border: 1px solid #878f70;
+    border-radius: 16px;
+    padding: 16px 40px;
+    width: 158px;
+    height: 48px;
+
+    
+}
+.menu-list-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    color: #36392d;
+}
+.menu-photo {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+.menu-photo-item {
+
+}
+.menu-name {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    color: #36392d;
+
+}
+.menu-price {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    color: #36392d;
+
 }

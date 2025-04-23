@@ -10,7 +10,7 @@
     <header class="header-section">
       <nav class="header-nav-list">
         <ul class="header-item-list">
-          <li class="header-item-link">Menu</li>
+          <li class="header-item-link"><a href="#menu"></a>Menu</li>
           <li class="header-item-link">Team</li>
         </ul>
         <a class="header-logo" href="">Cibo gustoso</a>
@@ -24,9 +24,9 @@
       <section class="hero">
         <h1 class="hero-title">Made by Italians. Enjoyed by Everyone.</h1>
       </section>
-      <section>
+      <section class="about-item">
         <div class="about">
-          <h2 class="about-title">Who are we?</h2>
+          <h2>Who are we?</h2>
           <p class="about-text">
             Vulputate in elit tincidunt elit scelerisque massa fusce pharetra.
             Sagittis gravida lacus quisque dictum non pretium suspendisse
@@ -35,22 +35,13 @@
             platea vitae.
           </p>
         </div>
+
         <div class="swiper">
-          <div class="swiper-button-prev">
-            <button type="button"></button>
-          </div>
-          <div class="swiper-button-next">
-            <button type="button"></button>
-          </div>
-          <div class="swiper-pagination"></div>
           <div class="swiper-wrapper">
             <img
               class="swiper-slide"
               src="./img/photo-items-interior.1x.jpg"
               alt="Photo interior"
-              srcset="
-                ./img/photo-items-interior.1x.jpg,./img/photo-items-interior.2x.jpg
-              "
               width="651"
               height="433"
             />
@@ -58,9 +49,6 @@
               class="swiper-slide"
               src="./img/Photo-items-people.1x.jpg"
               alt="Photo people"
-              srcset="
-                ./img/Photo-items-people.1x.jpg,./img/Photo-items-people.2x.jpg
-              "
               width="651"
               height="433"
             />
@@ -68,24 +56,89 @@
               class="swiper-slide"
               src="./img/Photo-items-pizza.1x.jpg"
               alt="Photo interior"
-              srcset="
-                ./img/Photo-items-pizza.1x.jpg,./img/Photo-items-pizza.2x.jpg
-              "
               width="651"
               height="433"
             />
             <img
               class="swiper-slide"
-              src="./img/photo-items-interior.1x.jpg"
-              alt="Photo interior"
-              srcset="
-                ./img/photo-items-interior.1x.jpg,./img/photo-items-interior.2x.jpg
-              "
+              src="./img/Photo-items-people.1x.jpg"
+              alt="Photo people"
               width="651"
               height="433"
             />
           </div>
         </div>
+      </section>
+      <section class="menu" id="#menu">
+        <h2>Menu</h2>
+        <p class="menu-text">
+          Lacus lobortis nullam nam consectetur fermentum mattis pellentesque id
+          nulla. Risus convallis iaculis risus ac aliquam sit ultricies.
+          Adipiscing adipiscing pellentesque tincidunt vitae. Aliquam dolor
+          egestas nam congue elit dolor.
+        </p>
+        <ul class="menu-list">
+          <li class="menu-list-item">
+            <span class="menu-list-text">Appetizers</span>
+          </li>
+          <li class="menu-list-item">
+            <span class="menu-list-text">Pasta</span>
+          </li>
+          <li class="menu-list-item">
+            <span class="menu-list-text">Pizza</span>
+          </li>
+          <li class="menu-list-item">
+            <span class="menu-list-text">Salads</span>
+          </li>
+          <li class="menu-list-item">
+            <span class="menu-list-text">Soups</span>
+          </li>
+          <li class="menu-list-item">
+            <span class="menu-list-text">Deserts</span>
+          </li>
+        </ul>
+        <ul class="menu-photo">
+          <li class="menu-photo-item">
+            <img
+              src="./img/Menu-photo.1x.jpg"
+              alt="Menu-photo"
+              width="336"
+              height="501"
+            />
+            <h3 class="menu-name">Gnocchi with almonds</h3>
+            <p class="menu-price">$10</p>
+          </li>
+          <li>
+            <img
+              src="./img/Menu-photo.2.1x.jpg"
+              alt="Menu-photo"
+              width="336"
+              height="501"
+            />
+            <h3 class="menu-name">Mini spinach ravioli</h3>
+            <p class="menu-price">$12</p>
+          </li>
+          <li>
+            <img
+              src="./img/Menu-photo.3.1x.jpg"
+              alt="Menu-photo"
+              width="336"
+              height="501"
+            />
+            <h3 class="menu-name">Lasagna</h3>
+            <p class="menu-price">$8</p>
+          </li>
+          <li>
+            <img
+              src="./img/Menu-photo.4.1x.jpg"
+              alt="Menu-photo"
+              width="336"
+              height="501"
+            />
+            <h3 class="menu-name">Carbonara spaghetti</h3>
+            <p class="menu-price">$15</p>
+          </li>
+        </ul>
       </section>
     </main>
     <script type="module" src="./main.js"></script>
