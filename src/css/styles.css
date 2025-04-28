@@ -19,6 +19,7 @@ h6 {
 button {
     cursor: pointer;
 }
+
 section {
     padding-top: 80px;
     max-width: 1920px;
@@ -28,16 +29,19 @@ section {
 .hidden {
     display: none;
 }
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
+
 a {
     text-decoration: none;
 }
@@ -48,23 +52,28 @@ a {
     padding: 40px 80px;
     margin: 0 auto;
 }
+
 .header-nav-list {
     display: flex;
     justify-content: space-between;
 }
+
 .header-item-list {
     display: flex;
-    gap:40px;
+    gap: 40px;
 }
+
 .header-item-two-list {
     display: flex;
-    gap:40px;
+    gap: 40px;
 }
+
 .header-item-link {
     font-weight: 400;
     font-size: 18px;
     color: #515643;
 }
+
 .header-logo {
     font-weight: 900;
     font-size: 32px;
@@ -79,6 +88,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .hero-title {
     width: 900px;
     padding-top: 280px;
@@ -99,9 +109,10 @@ a {
     justify-content: center;
     gap: 467px;
     margin-bottom: 121px;
-    
+
 
 }
+
 .about-text {
     width: 570px;
     text-align: left;
@@ -110,15 +121,49 @@ a {
     line-height: 1.5;
     color: #515643;
 }
-.swiper-wrapper {
-    flex-wrap: nowrap
+
+.swiper-button-prev svg,
+.swiper-button-next svg {
+    fill: #36392d;
 }
+
+.swiper-wrapper {
+    overflow: visible !important;
+}
+
+.swiper {
+    position: relative;
+    overflow: visible !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    font-size: 10px;
+    top: -10% !important;
+    background: #cfd2c6;
+    transform: translateY(-50%);
+    border: 1px solid #36392d !important;
+    width: 64px !important;
+    height: 64px !important;
+    border-radius: 50% !important;
+}
+
+.swiper-button-prev {
+    left: 16px !important;
+}
+
+.swiper-button-next {
+    right: 16px !important;
+}
+
 /* Menu */
 .menu {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .menu-text {
     max-width: 570px;
     text-align: center;
@@ -128,10 +173,12 @@ a {
     text-align: center;
     color: #36392d;
 }
+
 .menu-list {
     display: flex;
     gap: 38px;
 }
+
 .menu-list-item {
     border: 1px solid #878f70;
     border-radius: 16px;
@@ -139,8 +186,9 @@ a {
     width: 158px;
     height: 48px;
 
-    
+
 }
+
 .menu-list-text {
     display: flex;
     justify-content: center;
@@ -150,14 +198,15 @@ a {
     line-height: 1;
     color: #36392d;
 }
+
 .menu-photo {
     display: flex;
     gap: 40px;
     margin-top: 40px;
 }
-.menu-photo-item {
 
-}
+.menu-photo-item {}
+
 .menu-name {
     text-align: center;
     font-weight: 700;
@@ -166,6 +215,7 @@ a {
     color: #36392d;
 
 }
+
 .menu-price {
     text-align: center;
     font-weight: 600;
