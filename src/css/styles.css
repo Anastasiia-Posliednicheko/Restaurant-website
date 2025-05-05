@@ -30,7 +30,8 @@ section {
     display: none;
 }
 
-ul {
+ul,
+li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -223,4 +224,85 @@ a {
     line-height: 1;
     color: #36392d;
 
+}
+/* Drinks menu */
+.drinks-menu {
+    display: flex;
+    justify-content: center;
+    padding-left: 229px;
+    padding-right: 229px;
+}
+.drinks-name {
+    font-family: "Clash Display", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    color: #36392d;
+
+}
+.drinks-topics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 322px;
+    margin-top: 120px;
+    height: 432px;
+}
+.topics-name {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    color: #9fa68c;
+
+    border-bottom: 1px solid #9fa68c;
+    padding: 40px 0px;
+    width: 570px;
+    height: 144px;
+
+}
+.topics-name:hover {
+    color: #36392d;
+}
+
+/* Our Team*/
+.team {
+    
+}
+.team-head {
+    display: flex;
+    align-items: center;
+    padding: 0 229px 184px 229px;
+    
+}
+.team-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #36392d;
+}
+.team-list {
+    display: flex;
+    padding: 0 144px;
+    gap: 40px;
+}
+.team-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 378px;
+}
+.team-list-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: #36392d;
+
+}
+.team-info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    color: #36392d; 
 }
