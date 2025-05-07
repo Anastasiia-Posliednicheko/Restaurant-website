@@ -40,7 +40,6 @@ li {
 img {
     display: block;
     max-width: 100%;
-    height: auto;
 }
 
 a {
@@ -266,12 +265,18 @@ a {
 
 /* Our Team*/
 .team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 .team-head {
     display: flex;
     align-items: center;
-    padding: 0 229px 184px 229px;
+    justify-content: space-between;
+    padding: 0 299px;
+    padding-bottom: 184px;
+    
     
 }
 .team-text {
@@ -305,4 +310,116 @@ a {
     line-height: 1.4;
     text-align: center;
     color: #36392d; 
+}
+
+/* Events */
+.events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1760px;
+    height: 1442px;
+}
+.events-title {
+    padding-left: 229px;
+}
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.events-item {
+    width: calc((100% - 24px) / 2);
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    height: 309px;
+    margin: 0 auto;
+    padding: 80px  80px 0 80px;
+    box-sizing: border-box;
+}
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.footer-list-item {
+    font-weight: 400;
+    font-size: 18px;
+    color: #36392d;
+}
+.footer-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    color: #36392d;
+    
+}
+.footer-social {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 72px;
+}
+.footer-icon {
+    fill:#36392d;
+}
+.footer-forma {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #36392d;
+}
+.footer-input {
+    border: none;
+    border-bottom: 1px solid #878f70; 
+    padding: 10px;
+    width: 199px;
+    font-size: 16px;
+    color: #36392d; 
+    background-color: transparent;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.footer-input::placeholder {
+    color: #9fa68c; 
+}
+.footer-input:hover {
+    border-color: #515643; 
+}
+
+.footer-input:focus {
+    outline: none;
+    border-color: #515643;
+    box-shadow: 0 2px 0 0 #9fa68c; 
+}
+
+.footer-button {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #36392d;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    color: #cfd2c6;
+    
+}
+.footer-button:hover {
+    background-color:#36392d; 
+    transform: scale(1.05); 
+}
+
+.footer-button:focus {
+    background-color:#515643; 
+    box-shadow:  0 0 0 3px rgba(143, 150, 120, 0.5);
+    border-color: #9fa68c;
 }
