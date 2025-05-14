@@ -380,6 +380,36 @@ a {
 .events-item {
     width: calc((100% - 24px) / 2);
 }
+.events-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.events-item img {
+  display: block;
+  width: 100%;
+}
+
+.events-item .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(149, 157, 123, 0.8);
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.events-item:hover .overlay {
+  opacity: 1;
+}
 
 /* Footer */
 .footer {
@@ -397,7 +427,7 @@ a {
     flex-direction: row;
     gap: 40px;
 }
-.footer-list-item {
+.footer-list-item a {
     font-weight: 400;
     font-size: 18px;
     color: #36392d;
